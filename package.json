@@ -54,6 +54,7 @@
     "react-icons": "^4.3.1",
     "react-redux": "^7.2.6",
     "react-router-dom": "^6.2.1",
+    "react-tooltip": "^4.2.21",
     "redux": "^4.1.2",
     "scss": "^0.2.4",
     "sort-package-json": "^1.54.0",
