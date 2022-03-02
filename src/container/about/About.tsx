@@ -4,6 +4,8 @@ import { SanityImageSource } from '@sanity/image-url/lib/types/types'
 import { motion } from 'framer-motion'
 import { useEffect, useState } from 'react'
 
+import { AppWrap } from '@/wrapper'
+
 import { client, urlFor } from '../../client'
 
 const About = () => {
@@ -53,4 +55,4 @@ const About = () => {
   )
 }
 
-export default About
+export default AppWrap(About, 'about')
